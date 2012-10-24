@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>infopanel</title>
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+	<section id="infoslider-app">
+		<header id="header">
+			<h1>HEADLINE TEXT A</h1>
+            <div><input id="info-button" type="image" src="assets/images/info.png"></input></div>
+		</header>
+		<section id="main">
+            <ul id="icon-list">
+            </ul>
+		</section>
+		<footer id="footer"></footer>
+	</section>
+
+    <section id="info-panel">
+    <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+    </section>
+
+    <!-- View templates -->
+    <script type="text/template" id="icon-template">
+        <img class="icon-image" src="<%= imageUrl %>" />
+        <h2 class="icon-title"><%= title %></h2>
+    </script>
+
+    <!-- 3rd party -->
+	<script src="assets/js/lib/jquery-1.8.2.min.js"></script>    
+	<script src="assets/js/lib/underscore-min.js"></script>    
+	<script src="assets/js/lib/backbone-min.js"></script>    
+
+    <!-- Custom jQuery plugins -->
+	<script src="assets/js/infoslider.js"></script>    
+
+    <!-- Backbone classes --> 
+	<script src="assets/js/models/icon.js"></script>    
+	<script src="assets/js/collections/icons.js"></script>    
+	<script src="assets/js/views/iconView.js"></script>    
+	<script src="assets/js/views/appView.js"></script>    
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
+

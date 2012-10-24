@@ -1,0 +1,101 @@
+/*
+ * John Wakley 2012
+ */
+
+@font-face {
+  font-family: 'Novecentowide-Light';
+  src: url('../fonts/Novecentowide-Light.otf');
+}
+
+body {
+    background-color: #ccc;
+    margin: 0 auto;
+    width: 310px;
+    font: 12px 'Novecentowide-Light', sans-serif; 
+}
+
+#infoslider-app {
+    background-color: #ececec;
+    height: 580px;
+}
+
+#header {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#header h1 {
+    font-size: 18px;
+    color: #4a82a5;
+    margin: 0px 10px 0px 50px;
+    float:left;
+}
+
+#header div {
+   position: relative; 
+   float: left;
+}
+
+#info-button {
+    position: absolute;
+    top: 0.5em;
+}
+
+#info-panel {
+    display: none;
+    width: 250px;
+    height: 194px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0px 20px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid none;
+    border-color: #4a82a5;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#icon-list {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#icon-list li {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 30px 0px 0px 0px;
+}
+
+#icon-list li.left-col {
+    margin-left: 50px;
+    float: left;
+}
+
+#icon-list li.right-col {
+    margin-right: 50px;
+    float: right;
+}
+
+.icon-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.icon-title {
+    font-size: 18px;
+    position: absolute;
+    margin: 0px;
+    left: 7px;
+    bottom: 7px;
+    color: #fff;
+}
+

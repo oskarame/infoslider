@@ -1,0 +1,12 @@
+jsonpCallback(
+{
+"icons": [
+  { "title": "ABC", "color": "#c64918", "imageUrl": "assets/images/checkin.png"},
+  { "title": "DEF", "color": "#d37724", "imageUrl": "assets/images/checkin.png"},
+  { "title": "GHI", "color": "#556a70", "imageUrl": "assets/images/hand.png"},
+  { "title": "JKL", "color": "#55777f", "imageUrl": "assets/images/hand.png"},
+  { "title": "MNO", "color": "#68a03d", "imageUrl": "assets/images/dollar.png"}
+]
+}
+);
+
